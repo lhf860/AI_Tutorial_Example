@@ -15,7 +15,7 @@ python -m vllm.entrypoints.openai.api_server --model "/root/autodl-tmp/deploy/tr
 
 
 
-# langsmith的API KEY： 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
+# langsmith的API KEY： lsv2_pt_c4b7
 
 # 安装unstructured: pip install "unstructured[docx,pptx, pdf]"
 
