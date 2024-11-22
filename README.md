@@ -51,6 +51,28 @@
 
 ## 1.7 [LLM结构化输出](llm/llm_structure_output)
 
+### LLM结构化输出的用途
+* LLM答案生成（摒弃无关生成）
+* RAG答案生成、置信度、相关性等
+* 信息抽取：实体识别、关系抽取
+* 多项选择等
+* 文本分类
+* ...
+  
+
+### 结构化输出工具
+* [vllm](https://github.com/vllm-project/vllm)
+* [outlines](https://github.com/dottxt-ai/outlines)
+* [lm-format-enforcer](https://github.com/noamgat/lm-format-enforcer)
+* [logits-processor-zoo](https://github.com/NVIDIA/logits-processor-zoo)
+
+### 实战结构化输出
+* [vllm实战](llm/llm_structure_output/vllm_structured_output.ipynb)
+* [outlines实战](llm/llm_structure_output/outlines_structured_output.ipynb)
+* [lm-format-enforcer实战](llm/llm_structure_output/lm-format-enforcer_structured_output.ipynb)
+* [logits-processor-zoo实战](llm/llm_structure_output/logits-processor-zoo_structured_output.ipynb)
+  
+  
 
 # 二、[CV（+ 多模态）](cv/)
 
