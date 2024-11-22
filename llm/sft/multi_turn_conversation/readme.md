@@ -34,4 +34,4 @@
 # 对于使用qwen2.5的模型进行多轮对话的微调的命令和使用的模版类型如下：
 # # 下面这个命令可以正常运行：
 # 2.2 微调命令（完整版）
-    fswift sft --sft_type lora --target_modules ALL --dataset llm_pretrain.jsonl --template_type qwen2_5 --model_id_or_path  qwen/Qwen2.5-3B  --output_dir output_ckpt/llm_qwen2.5-3b-pretrained 
+    swift sft --sft_type lora --target_modules ALL --dataset llm_pretrain.jsonl --template_type qwen2_5 --model_id_or_path  qwen/Qwen2.5-3B  --output_dir output_ckpt/llm_qwen2.5-3b-pretrained 
