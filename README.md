@@ -23,7 +23,8 @@
 * [文本纠错(text correct)](llm/sft/text_correct/)
 * * csc文本纠错
   
-#$ 1.2 [LLM预训练(pretrained)](llm/pretrained)
+## 1.2 [LLM预训练(pretrained)](llm/pretrained)
+    
     采用法律问答数据中的答案部分进行领域预训练
 
 ## 1.3 [PEFT微调](llm/peft_tutorial)
