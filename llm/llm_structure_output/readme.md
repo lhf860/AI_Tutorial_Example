@@ -14,7 +14,7 @@
 * [outlines](https://github.com/dottxt-ai/outlines)
 * [lm-format-enforcer](https://github.com/noamgat/lm-format-enforcer)
 * [logits-processor-zoo](https://github.com/NVIDIA/logits-processor-zoo)
-
+* [instructor](https://github.com/instructor-ai/instructor)
 
 # 1. [vllm结构化输出](vllm_structured_output.ipynb)
 
@@ -35,3 +35,5 @@
 
 # 4. [logits-processor-zoo结构化输出（输出限制）](logits-processor-zoo_structured_output.ipynb)
      此框架主要做的是生成内容的限制，作用于decoding的解码策略、限制输出长度、权重提升等
+
+# 5. [instructor结构化输出](instructor_structured_output.ipynb)
