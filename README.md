@@ -115,6 +115,11 @@
 * * 评估框架ragas
   
 
+* Query Decomposition(问题分解)
+  
+    主要是借助了Qwen 和书生浦语Internlm大语言模型，结合目前流程的思维链(COT)、Planning（整体规划、迭代规划等能力）、PlanRAG、AutoRAG等来完成子问题的分解
+    
+    [子问题分解](rag/query_decomposition/)
 
 # 四、Agent
 
