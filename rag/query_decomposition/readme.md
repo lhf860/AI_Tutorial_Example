@@ -15,7 +15,7 @@
 * 部署书生浦语
   * 部署internlm2_5-7b-chat： 
   
-        lmdeploy serve api_server --backend pytorch  --eager-mode Shanghai_AI_Laboratory/internlm2_5-7b-chat  --model-name internlm2_5-7b-chat --model-name Qwen2.5-7B-Instruct 
+        lmdeploy serve api_server --backend pytorch  --eager-mode Shanghai_AI_Laboratory/internlm2_5-7b-chat  --model-name internlm2_5-7b-chat --model-name Qwen2.5-7B-Instruct --server-port 8000
 
 
   * 部署internlm3-8B-instruct
